@@ -1,0 +1,96 @@
+.container {
+    margin: 0 20px;
+}
+
+.container .nav {
+    margin: 0 auto;
+    max-width: 1120px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .nav-left{
+    padding: 13px 0;
+}
+.nav-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 800px;
+}
+
+.nav-table-list {
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 30px;
+    height: 67px;
+    align-items: center;
+    margin: 0 0;
+}
+
+.nav-table-list li:nth-of-type(1) {
+    line-height: 67px;
+    background-color: #ff9d00;
+
+}
+
+.nav-table-list li {
+    /* 去掉li标签的点 */
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 67px;
+    padding: 0 17px;
+    vertical-align: center;
+    position: relative;
+}
+
+.nav-table-list li:hover {
+    cursor: pointer;
+    color: #ff9d00;
+    border-bottom: 2px solid #ff9d00;
+}
+
+.nav-right {
+    width: 186px;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right {
+    padding: 21px 0;
+    margin-left: 131px;
+    height: 27px;
+    line-height: 27px;
+    color: #c9c9c9;
+    text-align: right;
+}
+
+.nav-right .wb-login {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url(./images/ia_100000059.png) no-repeat;
+    background-position: 0% 29% !important;
+}
+
+.nav-right .qq-login {
+    display: inline-block;
+    margin-left: 6x;
+    width: 27px;
+    height: 27px;
+    background: url(./images/ia_100000059.png) no-repeat;
+    background-position: 17% 29% !important;
+}
+
+.nav-right .wx-login {
+    display: inline-block;
+    /* margin-left: 6x; */
+    width: 27px;
+    height: 27px;
+    background: url(./images/ia_100000059.png) no-repeat;
+    background-position: 0% 95% !important;
+}
